@@ -1,0 +1,23 @@
+nav {
+    background-color: rgb(176, 255, 229);
+    height: 100%; width: 99%;
+    padding: 10px; margin: 0;
+
+    ul {
+        list-style-type: none;
+        display: flex; justify-content: space-between; align-items: center; gap: 16px;
+        margin: 1rem;
+    }
+}
+
+
+button {
+    background-color: #0000;
+    border: none;
+    height: 30px; width: 100px;
+    font-size: large;
+}
+button:hover {
+    cursor: pointer;
+    color: rgb(0, 119, 255);
+}
