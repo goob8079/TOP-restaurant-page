@@ -93,3 +93,7 @@ nav {
         text-shadow: 2px 3px 10px #08dcf8, 5px 5px 10px #8c00ff;
     }
 }
+
+.chefs-div img:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.crew-div {
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+
+    img {
+        height: 300px; width: 400px;
+        margin: 5px;
+    }
+
+    .desc {
+        border: 1px solid black;
+        width: 100%;
+        font-size: 30px;
+        background-color: white;
+        padding: 10px;
+    }
+}

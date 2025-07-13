@@ -1,4 +1,5 @@
 import "../styles/homepage.css";
+import { menu } from "../pages/menu.js";
 import chowderCrewImg from "../assets/chowder_crew.jpg";
 import burpleNurplesImg from "../assets/Burple_nurples.png";
 import froggyThumpkinImg from "../assets/Froggy_Apple_Crumple_Thumpkin.png";
@@ -46,6 +47,9 @@ export function homepage() {
     item1Img.setAttribute("id", "burple-nurples");
     item1Img.src = burpleNurplesImg;
     item1Img.alt = "Burple Nurples";
+    item1Img.addEventListener("click", () => {
+        menu();
+    });
     foodItem1.appendChild(item1Img);
     foodItem1.appendChild(item1P);
     chefsDiv.appendChild(foodItem1);
@@ -59,6 +63,9 @@ export function homepage() {
     item2Img.setAttribute("id", "froggy-thumpkin");
     item2Img.src = froggyThumpkinImg;
     item2Img.alt = "Froggy Apple Crumple Thumpkin";
+    item2Img.addEventListener("click", () => {
+        menu();
+    });
     foodItem2.appendChild(item2Img);
     foodItem2.appendChild(item2P);
     chefsDiv.appendChild(foodItem2);
@@ -72,6 +79,9 @@ export function homepage() {
     item3Img.setAttribute("id", "wt-bombs");
     item3Img.src = wontonBombsImg;
     item3Img.alt = "Won Ton Bombs";
+    item3Img.addEventListener("click", () => {
+        menu();
+    });
     foodItem3.appendChild(item3Img);
     foodItem3.appendChild(item3P);
     chefsDiv.appendChild(foodItem3);
