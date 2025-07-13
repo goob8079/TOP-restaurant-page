@@ -1,3 +1,4 @@
+import "../styles/homepage.css";
 import chowderCrewImg from "../assets/chowder_crew.jpg";
 import burpleNurplesImg from "../assets/Burple_nurples.png";
 import froggyThumpkinImg from "../assets/Froggy_Apple_Crumple_Thumpkin.png";
@@ -19,7 +20,7 @@ export function homepage() {
 
     const desc = document.createElement("div")
     desc.setAttribute("id", "desc");
-    desc.textContent = "We Have Edible Food!";
+    desc.textContent = "Foods delivered by sundown are free.";
     
     titleDiv.appendChild(title);
     titleDiv.appendChild(desc);

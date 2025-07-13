@@ -1,0 +1,14 @@
+img {
+    height: 300px; width: 400px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.row1 {
+    width: 100%;
+    display: flex; justify-content: space-between; align-items: center;
+
+    div {
+        display: flex; flex-direction: column; justify-content: center; align-items: center;
+    }
+}
