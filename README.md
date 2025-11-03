@@ -10,9 +10,9 @@ Includes a homepage, menu page, and about page
     </ol>
   </li>
   <li>
-    Frameworks:
+    Tools:
     <ol>
-      <li>Node.js</li>
+      <li>Webpack</li>
     </ol>
   </li>
 </ol>
